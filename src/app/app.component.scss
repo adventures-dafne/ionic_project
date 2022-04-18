@@ -90,7 +90,7 @@ ion-menu.ios ion-item.selected ion-icon {
 
 ion-menu.ios ion-item ion-icon {
   font-size: 24px;
-  color: #73849a;
+  color: #8b9a73;
 }
 
 ion-menu.ios ion-list#labels-list ion-list-header {
@@ -116,4 +116,8 @@ ion-note {
 
 ion-item.selected {
   --color: var(--ion-color-primary);
+}
+
+.iconMenu{
+  padding-left: 10px;
 }

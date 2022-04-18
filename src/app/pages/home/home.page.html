@@ -1,0 +1,39 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="app"></ion-back-button>
+  </ion-buttons>
+  <ion-title>Home</ion-title>
+</ion-toolbar>
+
+
+<ion-content>
+  <!-- List of Text Items -->
+  <ion-list>
+    <ion-item>
+      <ion-label (click)="apresentarToastWithOptions('Ração')">Ração</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="apresentarToastWithOptions('Petiscos')">Petiscos</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="apresentarToastWithOptions('Tapetes')">Tapetes</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="apresentarToastWithOptions('Acessorios')">Acessorios</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="apresentarToastWithOptions('Roupas')">Roupas</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="apresentarToastWithOptions('Brinquedos')">Brinquedos</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="warning">
+    <ion-title size="small">
+      @Copyright 2022- Mundo dos pets
+    </ion-title>
+  </ion-toolbar>

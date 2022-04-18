@@ -1,0 +1,10 @@
+.pageInput{
+    height: 800px;
+}
+ion-button[color="dark"]{
+    text-transform: initial;
+}
+
+ion-content{
+    --background: var(--ion-color-warning-tint);
+}
